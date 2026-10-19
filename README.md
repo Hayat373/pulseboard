@@ -68,6 +68,12 @@ Pulseboard currently uses sample data for its analytics and shipment records. It
 - Improve accessibility and automated testing.
 - Deploy a live demo.
 
+## Live Demo
+
+[Open Pulseboard](pulseboard-dv6z5r6kj-hayats-projects-e4ba8944.vercel.app)
+
+
+
 ## Author
 
 **Hayat Ahmedjara**
