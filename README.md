@@ -1,32 +1,71 @@
-# React + TypeScript + Vite
+# Pulseboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern logistics analytics dashboard built with React, TypeScript, and Recharts. Pulseboard brings shipment activity, revenue trends, delivery performance, and operational insights into one clean interface.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Pulseboard is a frontend dashboard concept designed to make logistics data easier to explore and understand through interactive charts, summary metrics, and shipment records.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Analytics overview** — KPI cards for key business metrics.
+- **Revenue visualization** — Area chart for revenue trends.
+- **Shipment analytics** — Bar chart and shipment-status breakdown.
+- **Shipment management** — Searchable and filterable shipment table.
+- **CSV export** — Export shipment records for further analysis.
+- **Notifications panel** — Quick access to dashboard notifications.
+- **Responsive interface** — Layout designed for different screen sizes.
+- **Modern dark theme** — Charcoal surfaces with purple accents.
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- Recharts
+- Lucide React
+- CSS
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd pulseboard
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open the local URL shown in your terminal.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+## Project Status
+
+Pulseboard currently uses sample data for its analytics and shipment records. It is a frontend portfolio project; a live backend and real logistics data integration are not included yet.
+
+## Future Improvements
+
+- Connect to a backend API.
+- Add persistent data and user authentication.
+- Support dynamic date-range filtering.
+- Improve accessibility and automated testing.
+- Deploy a live demo.
+
+## Author
+
+**Hayat Ahmedjara**
+
+AI & Machine Learning Engineering student with an interest in software development and interactive data visualization.
