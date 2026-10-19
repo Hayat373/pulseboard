@@ -6,6 +6,10 @@ A modern logistics analytics dashboard built with React, TypeScript, and Rechart
 
 Pulseboard is a frontend dashboard concept designed to make logistics data easier to explore and understand through interactive charts, summary metrics, and shipment records.
 
+## Preview
+
+![Pulseboard Dashboard](screenshots/pulseboard-dashboard.png)
+
 ## Features
 
 - **Analytics overview** — KPI cards for key business metrics.
