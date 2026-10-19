@@ -8,7 +8,7 @@ Pulseboard is a frontend dashboard concept designed to make logistics data easie
 
 ## Preview
 
-![Pulseboard Dashboard](screenshots/pulseboard-dashboard.png)
+![Pulseboard Dashboard](screenshot/pulseboard-dashboard.png)
 
 ## Features
 
